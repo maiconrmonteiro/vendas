@@ -136,8 +136,9 @@ footer > p {
 
 footer > p > a {
     text-decoration: none;
-    color: #E2BC0F;
-    font-weight: 500;
+    color: #501e43;
+    font-weight: 600;
+    
 }
 
 footer > p > a:hover {
