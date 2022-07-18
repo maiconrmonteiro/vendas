@@ -5,7 +5,18 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+header {
+    text-align: center;
+    font-weight: 600;
+    color: #E2BC0F;
+    background: #b35e9d;
+    box-shadow: 0px 10px 40px #00000056;
+}
 
+header > p {
+    margin: 0%;
+    padding: 15px;
+}
 
 .main-login {
     width: 100vw;
@@ -110,6 +121,30 @@ img {
 .btn-login:hover{
     width: 100%;
 }
+
+footer {
+    width: 100%;
+    background: #b35e9d;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+footer > p {
+    margin: 0%;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: #E2BC0F;
+    font-weight: 500;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+
+}
+
 
 @media only screen and (max-width: 950px){
     .card-login {
